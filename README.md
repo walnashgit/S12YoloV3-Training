@@ -1,5 +1,10 @@
 # S12YoloV3-Training
-## Trainning Logs:
+
+### Trainig logs for YoloV3 model trained on custom dataset.
+
+For details on model and dataset used see this [repo](https://github.com/walnashgit/S12YoloV3CustomDataSet)
+
+## Logs:
 
 Namespace(epochs=280, batch_size=10, accumulate=4, cfg='cfg/yolov3-custom.cfg', data='data/customdata/custom.data', multi_scale=False, img_size=[512], rect=False, resume=False, nosave=True, notest=False, evolve=False, bucket='', cache_images=True, weights='weights/yolov3-spp-ultralytics.pt', name='', device='', adam=False, single_cls=False)
 Using CUDA device0 _CudaDeviceProperties(name='Tesla T4', total_memory=15102MB)
